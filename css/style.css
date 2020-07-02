@@ -11,7 +11,9 @@ body {
   margin: auto;
 }
 header {
+  position: relative;
   height: 400px;
+  font-family: sans-serif;
 }
 .header-top {
   height: 15%;
@@ -41,7 +43,6 @@ div li {
   color: #fff;
   text-decoration: none;
 }
-
 nav .button2 {
   color: #fff;
   background-color: #7BBB01;
@@ -50,7 +51,6 @@ nav .button2 {
   border: 1px solid #7BBB01;
   padding: 10px;
 }
-
 nav .button1 {
   color: #fff;
   background-color: #0D325A;
@@ -59,4 +59,27 @@ nav .button1 {
   border: 2px solid #fff;
   padding: 10px 30px 10px 30px;
   margin-right: 20px;
+}
+
+.button3 {
+  color: #fff;
+  background-color: #7BBB01;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid #7BBB01;
+  padding: 20px 10px 20px 10px;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 13%;
+}
+
+.image-banner {
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  width: 50%;
 }
