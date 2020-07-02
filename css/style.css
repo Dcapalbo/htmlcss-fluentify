@@ -3,7 +3,6 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
 .container {
   width: 80%;
   margin: auto;
@@ -11,7 +10,7 @@ padding: 0;
 header {
   background-color: #0D325A;
   position: relative;
-  height: 450px;
+  height: 40vh;
   font-family: sans-serif;
 }
 .header-top {
@@ -60,7 +59,6 @@ nav .button1 {
   padding: 10px 30px 10px 30px;
   margin-right: 20px;
 }
-
 .button3 {
   color: #fff;
   background-color: #7BBB01;
@@ -70,22 +68,18 @@ nav .button1 {
   padding: 20px 10px 20px 10px;
   margin-top: 30px;
 }
-
 h3 {
   padding-top: 100px;
   clear: both;
   color: #fff;
   font-size: 50px;
 }
-
 .image-banner {
   bottom: 0px;
   right: 0px;
   position: absolute;
   width: 40%;
-
 }
-
 .square-main {
   background-color: #D3D3D3;
   height: 150px;
@@ -93,13 +87,55 @@ h3 {
   text-align: center;
   padding-top: 2.5%;
 }
-
-.scuole {
+.headline {
   font-family: sans-serif;
 }
-
 .paragrafo {
   font-family: sans-serif;
   color: #A9A9A9;
   line-height: 40px;
+}
+main {
+  position: relative;
+  height: 40vh;
+  font-family: sans-serif;
+  background-color: #fff;
+}
+.img {
+  width: 35%;
+  height: 35%;
+}
+div .colonna-sinistra, .colonna-centrale, .colonna-destra :first-child {
+  color: #008000;
+}
+hr {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.colonna-sinistra {
+  float: left;
+  height: 60%;
+  width: 18%;
+  margin-left: 12%;
+  margin-top: 5%;
+  text-align: center;
+  vertical-align: middle;
+}
+.colonna-centrale {
+  float: left;
+  height: 60%;
+  width: 18%;
+  margin-left: 12%;
+  margin-top: 5%;
+  text-align: center;
+  vertical-align: middle;
+}
+.colonna-destra {
+  float: left;
+  height: 60%;
+  width: 18%;
+  margin-left: 12%;
+  margin-top: 5%;
+  text-align: center;
+  vertical-align: middle;
 }
