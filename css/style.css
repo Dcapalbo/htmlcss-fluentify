@@ -10,7 +10,7 @@ padding: 0;
 header {
   background-color: #0D325A;
   position: relative;
-  height: 40vh;
+  height: 37vh;
   font-family: sans-serif;
 }
 .header-top {
@@ -97,7 +97,7 @@ h3 {
 }
 main {
   position: relative;
-  height: 40vh;
+  height: 43vh;
   font-family: sans-serif;
   background-color: #fff;
 }
@@ -105,12 +105,16 @@ main {
   width: 35%;
   height: 35%;
 }
-div .colonna-sinistra, .colonna-centrale, .colonna-destra :first-child {
+#green {
   color: #008000;
 }
+#lightgrey {
+  color: #000;
+  opacity: 0.5;
+}
 hr {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 40%;
+  margin-right: 40%;
 }
 .colonna-sinistra {
   float: left;
