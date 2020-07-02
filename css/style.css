@@ -19,22 +19,30 @@ header {
 }
 
 .header-top {
-  height: 50%;
+  height: 20%;
   background-color: blue;
   margin-top: 10px;
   line-height: 50px;
+  text-transform: uppercase;
 }
 
 .header-logo {
   float: left;
-  background-color: pink;
+  margin-right: 10%;
 }
 
-.header-menu-left li {
-  display: inline-block;
+.header-menu-left {
   float: left;
-  background-color: violet;
-  list-style: none;
-  text-align: center;
-  padding-left: 25px;
+  color: #fff;
+}
+
+.header-menu-right {
+  float:right;
+  color: #fff;
+
+}
+
+div li {
+  display: inline-block;
+  margin-right: 20px;
 }
