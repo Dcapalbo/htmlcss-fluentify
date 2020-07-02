@@ -85,3 +85,21 @@ h3 {
   width: 40%;
 
 }
+
+.square-main {
+  background-color: #D3D3D3;
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.scuole {
+  font-family: sans-serif;
+}
+
+.paragrafo {
+  font-family: sans-serif;
+  color: #A9A9A9;
+  line-height: 40px;
+}
