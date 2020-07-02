@@ -3,46 +3,60 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
 body {
-  background-color: #5F9EA0;
+  background-color: #0D325A;
 }
-
 .container {
   width: 80%;
   margin: auto;
 }
-
 header {
   height: 400px;
-  background-color: red;
 }
-
 .header-top {
-  height: 20%;
-  background-color: blue;
+  height: 15%;
   margin-top: 10px;
   line-height: 50px;
   text-transform: uppercase;
 }
-
 .header-logo {
   float: left;
   margin-right: 10%;
 }
-
 .header-menu-left {
   float: left;
-  color: #fff;
 }
-
-.header-menu-right {
-  float:right;
-  color: #fff;
-
-}
-
 div li {
   display: inline-block;
+  margin-right: 20px;
+}
+.header-menu-left li a {
+  color:#fff;
+  text-decoration: none;
+}
+.header-menu-right {
+  float:right;
+}
+.header-menu-right li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .button2 {
+  color: #fff;
+  background-color: #7BBB01;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 1px solid #7BBB01;
+  padding: 10px;
+}
+
+nav .button1 {
+  color: #fff;
+  background-color: #0D325A;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  padding: 10px 30px 10px 30px;
   margin-right: 20px;
 }
