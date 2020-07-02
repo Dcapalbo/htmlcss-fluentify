@@ -3,21 +3,19 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-body {
-  background-color: #0D325A;
-}
+
 .container {
   width: 80%;
   margin: auto;
 }
 header {
+  background-color: #0D325A;
   position: relative;
-  height: 400px;
+  height: 450px;
   font-family: sans-serif;
 }
 .header-top {
   height: 15%;
-  margin-top: 10px;
   line-height: 50px;
   text-transform: uppercase;
 }
@@ -28,16 +26,18 @@ header {
 .header-menu-left {
   float: left;
 }
+.header-menu-right {
+  float:right;
+  padding-left: 100px;
+}
 div li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 30px;
+  font-size: 15px;
 }
 .header-menu-left li a {
   color:#fff;
   text-decoration: none;
-}
-.header-menu-right {
-  float:right;
 }
 .header-menu-right li a {
   color: #fff;
@@ -72,14 +72,16 @@ nav .button1 {
 }
 
 h3 {
+  padding-top: 100px;
+  clear: both;
   color: #fff;
-  font-size: 40px;
-  margin-top: 13%;
+  font-size: 50px;
 }
 
 .image-banner {
   bottom: 0px;
   right: 0px;
   position: absolute;
-  width: 50%;
+  width: 40%;
+
 }
